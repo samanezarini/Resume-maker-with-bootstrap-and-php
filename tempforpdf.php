@@ -53,10 +53,7 @@ $pdf = new TCPDF();
 // add a page
 $pdf->AddPage();
 // set font
-//فونت هاشو باید ببینی فونت خوب انتخاب کنی فعلا همین فونت فارسی رو ساپورت میکنه
 $pdf->SetFont('dejavusans', 'B', 20);
-//عنوان سایت و اینجا بزن
-// مقدار R رو برای راست چین گذاشتم
 $pdf->Write(0, 1, '', 0, 'R', true, 0, false, false, 0);
 // کل محتوا اینجا به صورت کامل
 $html = '<section>';
