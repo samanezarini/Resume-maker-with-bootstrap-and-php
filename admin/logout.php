@@ -1,0 +1,10 @@
+<?php
+ session_start();
+ session_unset();
+ unset($_SESSION['name']);
+ unset($_SESSION['user_id']);
+ unset($_SESSION['permission']);
+ session_destroy();
+ header('location:../index.php');
+ exit();
+ ?>

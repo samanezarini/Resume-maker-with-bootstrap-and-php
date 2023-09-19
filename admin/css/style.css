@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url('../fonts/IRANSansWeb(FaNum).eot');
+    src: url('../fonts/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+    url('../fonts/IRANSansWeb(FaNum).woff2') format('woff2'),
+    url('../fonts/IRANSansWeb(FaNum).woff') format('woff'),
+    url('../fonts/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+body {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    font-family: 'IRANSansWeb';
+    font-size: 14px;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header-menu a {
+    color: #333333;
+}
+
+.header-menu .nav-item:hover {
+    border-bottom: 2px solid red;
+}
+
+.dropdown-menu-custome {
+    width: 100%;
+    top: 46px;
+    text-align: right;
+}
+
+.nav-item:hover > .dropdown-menu {
+    display: block;
+}
+
+.design-service ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.menu-user ul {
+    list-style: none;
+}
+
+.menu-user a {
+    color: #686e71;
+}
+
+.menu-user a:hover {
+    color: #333333;
+}
+
+.details-card {
+    border-radius: 15px;
+}
+
+.details-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    border: 0px;
+}
