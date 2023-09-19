@@ -1,0 +1,616 @@
+﻿body {
+    direction: rtl;
+}
+@font-face {
+    font-family: 'IRANSansX-light';
+    src: url('fonts/IRANSansX-light.woff') format('woff');
+}
+
+* {
+    font-family: 'IRANSansX-light';
+    color: #2b2b2b;
+    line-height:1cm;
+}
+
+#top-menu li a {
+    font-size: 15px;
+}
+
+    #top-menu li a:hover {
+        flood-color: #ff0000;
+        color: #f2cc18;
+        opacity: 0.7;
+        top: 10px;
+    }
+
+.separator {
+    display: inline-block;
+    margin-right: 26%;
+    margin-top: 0.1%;
+    border-right: 0.1px solid #d3d3d3;
+    vertical-align: central;
+    height: 18px;
+}
+
+.btn-resume {
+    width: 200px;
+    height: 50px;
+    margin-right: 45%;
+}
+
+.btn-reg1 {
+    background-color: #f6e05e;
+    color: #2b2b2b;
+}
+
+.hom-text1 {
+    font-size: 32px;
+    line-height: 34px;
+    margin-bottom: 8px;
+}
+
+.home-box {
+    height: 10px;
+    width: 20px;
+}
+
+form label {
+    direction: ltr;
+}
+
+#form-r:hover {
+    border-color: #d3d3d3;
+}
+
+.btn-log, .btn-reg, {
+    margin-right: 35%;
+}
+
+a, a button {
+    text-decoration: none;
+}
+
+#text-about {
+    text-align: justify;
+    text-indent: hanging;
+}
+
+.baner {
+    background-color: #a6a6a6;
+    border: 2px;
+    border-radius: 25px;
+}
+
+#pic1, #pic2, #pic3, #pic4, .f1, .f2, .f3, .f4 {
+    border: 1px;
+    border-radius: 25px;
+}
+
+.btn-sabt, .btn-vor, .btn-sen {
+    background-color: #e15f41;
+    color: #ffffff;
+}
+
+.btn-logo, .link-fo {
+    opacity: 0.6;
+}
+
+    .btn-logo:hover, .link-fo:hover {
+        color: #f2cc18;
+        opacity: 2;
+    }
+
+.link-fo {
+    color: #282828;
+    text-decoration: none;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+    .zoom:hover {
+        -ms-transform: scale(0.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5);
+    }
+
+.size-box {
+    height: 300px;
+    border-radius:20px;
+}
+
+
+
+
+.btn-top {
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
+    bottom: 20px;
+}
+
+}
+
+.btn-top:hover {
+    left: 120%;
+    transition: all 550ms cubic-bezier(0.19, 2, 0.22, 1);
+}
+
+/*format*/
+
+section.sec {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.bg-gradient {
+    background: linear-gradient(225.35deg,#246694 0,#062338 100%);
+}
+
+.sm-title {
+}
+
+.title, .title h3 {
+    font-size: 22px;
+    color: #2b4d7a;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.sm-title h3 {
+    margin-bottom: 20px;
+}
+
+.title, .title h3 {
+    font-size: 22px;
+    color: #2b4d7a;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.owl-nav .owl-prev, .owl-nav .owl-next {
+    top: 40%;
+    position: absolute;
+    border-radius: 40px !important;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.owl-nav .owl-prev {
+    left: -5%;
+}
+
+.owl-nav .owl-next {
+    right: -5%;
+}
+
+    #staff .owl-nav .owl-prev i, .owl-nav .owl-next i {
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+    }
+
+.box-b {
+    background-color: #f5f6fa;
+    padding: 15px;
+    transition: .2s all ease-in-out;
+    border-radius: 4px;
+    cursor: pointer;
+    border-bottom: solid 2px #2699cf;
+    height: auto;
+    position: relative;
+    box-shadow: 0 5px 10px #9c9c9c;
+}
+
+    .box-b .box-img {
+        margin-bottom: 15px;
+    }
+
+.staff .box-img img {
+    height: 145px;
+    width: 145px;
+    margin: auto;
+    border-radius: 90px;
+}
+
+.box-b h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #000000;
+}
+
+.box-b p {
+    line-height: 1.4;
+    font-size: 18px;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+section.sec {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.bg-gradient {
+    background: linear-gradient(225.35deg,#246694 0,#062338 100%);
+}
+
+.sm-title {
+}
+
+.title, .title h3 {
+    font-size: 22px;
+    color: #2b4d7a;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.sm-title h3 {
+    margin-bottom: 20px;
+}
+
+.title, .title h3 {
+    font-size: 22px;
+    color: #2b4d7a;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.owl-nav .owl-prev, .owl-nav .owl-next {
+    top: 40%;
+    position: absolute;
+    border-radius: 40px !important;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.owl-nav .owl-prev {
+    left: -5%;
+}
+
+.owl-nav .owl-next {
+    right: -5%;
+}
+
+    #staff .owl-nav .owl-prev i, .owl-nav .owl-next i {
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+    }
+
+.box-b {
+    background-color: #f5f6fa;
+    padding: 15px;
+    transition: .2s all ease-in-out;
+    border-radius: 4px;
+    cursor: pointer;
+    border-bottom: solid 2px #2699cf;
+    height: auto;
+    position: relative;
+    box-shadow: 0 5px 10px #9c9c9c;
+}
+
+    .box-b .box-img {
+        margin-bottom: 15px;
+    }
+
+.staff .box-img img {
+    height: 145px;
+    width: 145px;
+    margin: auto;
+    border-radius: 90px;
+}
+
+.box-b h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #000000;
+}
+
+.box-b p {
+    line-height: 1.4;
+    font-size: 18px;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/*format*/
+
+.template:hover {
+    box-shadow: 5px 3px 60px 5px #e6e6e6;
+}
+.center{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.links{
+    
+}
+
+a.link{
+    border-bottom:2px solid;
+    border-bottom-color: #7cd4ff;
+}
+
+/* step form
+
+/*form styles*/
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+#msform fieldset .form-card {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-sizing: border-box;
+    width: 94%;
+    margin: 0 3% 20px 3%;
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+#msform fieldset .form-card {
+    text-align: right;
+    color: #9E9E9E;
+}
+
+/*Blue Buttons*/
+#msform .action-button {
+    width: 100px;
+    background: skyblue;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue;
+}
+
+/*Previous Buttons*/
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #616161;
+}
+
+/*Dropdown List Exp Date*/
+select.list-dt {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 5px 3px 5px;
+    margin: 2px;
+}
+
+select.list-dt:focus {
+    border-bottom: 2px solid skyblue;
+}
+
+/*The background card*/
+.card {
+    z-index: 0;
+    border: none;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+/*FieldSet headings*/
+.fs-title {
+    font-size: 16px;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/*progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey;
+}
+
+#progressbar .active {
+    color: #000000;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 12px;
+    width: 14%;
+    float: right;
+    position: relative;
+    margin-top: 4px;
+}
+
+/*Icons in the ProgressBar*/
+#progressbar #account:before {
+    font-family: IRANSansX-light;
+    content: "1";
+}
+
+#progressbar #education:before {
+    font-family: IRANSansX-light;
+    content: "2";
+}
+
+#progressbar #jobs:before {
+    font-family: IRANSansX-light;
+    content: "3";
+}
+
+#progressbar #expertice:before {
+    font-family: IRANSansX-light;
+    content: "4";
+}
+
+#progressbar #project:before {
+    font-family: IRANSansX-light;
+    content: "5";
+}
+#progressbar #research:before {
+    font-family: IRANSansX-light;
+    content: "6";
+}
+#progressbar #confirm:before {
+    font-family: IRANSansX-light;
+    content: "7";
+}
+
+/*ProgressBar before any progress*/
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+}
+
+/*ProgressBar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1;
+}
+
+/*Color number of the step and the connector before it*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: skyblue;
+}
+
+/*Imaged Radio Buttons*/
+.radio-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.radio {
+    display:inline-block;
+    width: 204;
+    height: 104;
+    border-radius: 0;
+    background: lightblue;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 8px 2px;
+}
+
+.radio:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.radio.selected {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*Fit image in bootstrap div*/
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+}
+.choose-file {
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 0.1px;
+    z-index: -1; }
+
+.choose-file + .upload-file {
+    background-color: #df0024;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: 7px 20px;
+    border-radius: 0.25rem;
+    width: 100%;
+    position: relative;
+    border: 1px solid #df0024;
+    cursor: pointer; }
+.choose-file + .upload-file:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 0;
+    background: rgba(0, 0, 0, 0.2);
+    top: 0;
+    right: 0;
+    transition: all 0.2s ease-in; }
+.choose-file + .upload-file:hover:after {
+    width: 100%; }
