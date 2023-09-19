@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ایجاد رزومه</title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm sticky-lg-top">
+        <div class="container-fluid">
+            <img class="img-fluid" src="images/cv-brand1.png" alt="logo" style="width: 3%; height:3%;">
+            <a class="navbar-brand fw-bold" href="index.html">رزومه سما</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="my-nav">
+                <ul class="navbar-nav me-2 mb-lg-0" id="top-menu">
+                    <li class="nav-item">
+                        <div class="nav-item">
+                            <a class="nav-link fw-bold mt-2 mb-2" href="creat-resume.html">ایجاد رزومه</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-item">
+                            <a class="nav-link fw-bold me-3 mt-2 mb-2" href="format.html">قالب ها</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-item">
+                            <a class="nav-link fw-bold me-3 mt-2 mb-2" href="resume-writing-guide.html">راهنمای نوشتن رزومه</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-item">
+                            <a class="nav-link fw-bold me-3 mt-2 mb-2" href="property.html">ویژگی ها</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <div class="nav-item">
+                            <a class="nav-link fw-bold me-3 mt-2 mb-2" href="faq.html">سوالات متداول</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-item">
+                            <a class="nav-link fw-bold me-3 mt-2 mb-2" href="contact-us.html">تماس باما</a>
+                        </div>
+                    </li>
+                </ul>
+                <!--<span class="separator"></span>-->
+                <div class="d-flex me-auto">
+                    <a href="login.html"><button class="btn btn-outline-secondary ms-3 mt-2 mb-2" type="button" style="width: 100px;">ورود</button></a>
+                    <a href="sign-up.html" class="btn btn-reg1 ms-4 mt-2 mb-2" type="button" style="width: 100px;">ثبت نام</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="mt-5 mb-5">
+        <div class="container col-lg-12 text-center rounded-3" style="background-color: #eff8ff;">
+            <div class="row" style="height:60px;">
+                <div class="col-sm-2 mt-2 mb-2 ">
+                    <a href="creat-resume.html" class="fw-bold link-info links">اطلاعات پایه</a>
+                </div>
+                <div class="col-sm-2 mt-2 mb-2">
+                    <a href="educational.html" class="fw-bold link-info links">سوابق تحصیلی</a>
+                </div>
+                <div class="col-sm-2 mt-2 mb-2">
+                    <a href="job.html" class="fw-bold link-info links">سوابق شغلی</a>
+                </div>
+                <div class="col-sm-2 mt-2 mb-2">
+                    <a href="skills.html" class="fw-bold link-info links">مهارت ها</a>
+                </div>
+                <div class="col-sm-1 mt-2 mb-2">
+                    <a href="projects.html" class="fw-bold link-info links">پروژه‌ها</a>
+                </div>
+                <div class="col-sm-2 mt-2 mb-2">
+                    <a href="research.html" class="fw-bold link-info links link">تحقیقات</a>
+                </div>
+                <div class="col-sm-1 mt-2 mb-2">
+                    <a href="other.html" class="link-secondary">سایر</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--form research-->
+    <div class="container">
+        <div class="row align-items-center center">
+            <div class="col-lg-12 mb-5 mb-lg-0">
+                <p class="me-1">‌تحقیقات</p>
+                <div class="card shadow" id="form-r">
+                    <form>
+                        <div class="card-body py-5 px-md-5">
+                            <div class="row">
+                                <div class="col-md-12 mb-4">
+                                    <div class="form-outline">
+                                        <label class="form-label">:عنوان</label>
+                                        <input type="text" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <label class="form-label">:ناشر</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <label class="form-label">:لینک مرتبط </label>
+                                    <input type="text" class="form-control text-start" />
+                                </div>
+                                <div class="col-md-2 mb-4">
+                                    <div class="form-outline">
+                                        <label class="form-label">:تاریخ</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            < class="form-select" aria-label="Default select example">
+                                            <option value="" selected=""></option>
+                                            <option value="1">فروردین</option>
+                                            <option value="2">اردیبهشت</option>
+                                            <option value="3">خرداد</option>
+                                            <option value="4">تیر</option>
+                                            <option value="5">مرداد</option>
+                                            <option value="6">شهریور</option>
+                                            <option value="7">مهر</option>
+                                            <option value="8">آبان</option>
+                                            <option value="9">آذر</option>
+                                            <option value="10">دی</option>
+                                            <option value="11">بهمن</option>
+                                            <option value="12">اسفند</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 mb-4 mt-2">
+                                    <div class="form-outline">
+                                        <label class="form-label"></label>
+                                        <input type="text" class="form-control" placeholder="سال" />
+                                    </div>
+                                </div>
+                                <div class="col-md-11 mb-4 mt-2">
+                                    <div class="form-outline">
+                                        <label class="form-label">:توضیحات</label>
+                                        <textarea class="form-control" rows="4"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-1" style="margin-top: 85px;">
+                                    <a class="btn">
+                                        <img src="images/plus.png" alt="plus" style="width:30px; height:30px;" />
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--btn next-->
+    <a class="btn btn-primary mt-5  mb-4 text-center" href="other.html" style="margin-right:46%; width:120px; height:50px;">
+        <p class="mt-0 text-white">ادامه</p>
+    </a>
+
+
+
+
+    <footer class="py-5 px-2 bg-light" id="footer" style="font-size:95%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 mb-3">
+                    <div class="mb-3">
+                        <div class="h4">رزومه سما</div>
+                        <p class="text-muted">به سرعت و با کیفیتی بالا رزومه خود را بسازید و به راحتی به جستجوی شغل مورد نظر بپردازید.</p>
+                        <div class="social-nav">
+                            <nav role="navigation">
+                                <div class="mt-4">
+                                    <a type="button" class="btn btn-logo">
+                                        <img src="images/icon/logo-twitter.svg" alt="twitter" style="height:20px; width:20px;" />
+                                    </a>
+                                    <a type="button" class="btn btn-logo">
+                                        <img src="images/icon/logo-linkedin.svg" alt="linkedin" style="height:20px; width:20px;" />
+                                    </a>
+                                    <a type="button" class="btn btn-logo">
+                                        <img src="images/icon/logo-instagram.svg" alt="instagram" style="height:20px; width:20px;" />
+                                    </a>
+                                    <a type="button" class="btn btn-logo">
+                                        <img src="images/icon/logo-facebook.svg" alt="facebook" style="height:20px; width:20px;" />
+                                    </a>
+
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <div class="text-uppercase mb-2">راهنما</div>
+                    <div class="nav flex-column">
+                        <a class="nav-link px-0 link-fo" href="cv.html">رزومه چیست؟</a>
+                        <a class="nav-link px-0 link-fo" href="resume-writing-guide.html">راهنمای ساخت رزومه</a>
+                        <a class="nav-link px-0 link-fo" href="creat-resume.html">ساخت یک رزومه</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <div class="text-uppercase mb-2">لینک های مفید</div>
+                    <div class="nav flex-column">
+                        <a class="nav-link px-0 link-fo" href="format.html">قالب ها</a>
+                        <a class="nav-link px-0 link-fo" href="standard-cv.html">رزومه استاندارد</a>
+                        <a class="nav-link px-0 link-fo" href="best.html">برترین ها</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <div class="text-uppercase mb-2">پشتیبانی</div>
+                    <div class="nav flex-column">
+                        <a class="nav-link px-0 link-fo" href="contact-us.html">تماس با ما</a>
+                        <a class="nav-link px-0 link-fo" href="terms.html">قوانین و مقررات</a>
+                        <a class="nav-link px-0 link-fo" href="faq.html">سوالات متداول</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="text-uppercase mb-2">با ما تماس بگیرید</div>
+                    <div class="text-small">
+                        <address class="text-muted">
+                            ایران
+                            همدان، همدان
+                            دانشکده فنی و حرفه ای زینب کبری <br>
+                        </address>
+                        <div class="mb-1"><strong>تلفن:</strong>&nbsp; 08132568745</div>
+                        <div class="mb-1"><strong>ایمیل:</strong> &nbsp; info@samacv.ir</div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-2">
+                    © 1402 - تمامی حقوق برای سایت <a class="text-dark fw-bold link-fo" href="#">رزومه سما</a>‌ محفوظ است.
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
