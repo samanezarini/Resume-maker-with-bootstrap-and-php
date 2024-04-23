@@ -2,11 +2,14 @@
 A ready-made project created by Semane Zarini provides the user with the possibility of creating a resume on a template.
 
 **This project is a simple project with a simple user design.**
-![image](https://github.com/samanezarini/Resume-maker-with-bootstrap-and-php/assets/133226049/187bd163-a6e6-4084-85a3-049c31d012c0)
 
-## Welcome!
+![image](https://github.com/samanezarini/Resume-maker-with-bootstrap-and-php/assets/133226049/3900a530-8d0f-4993-adc6-0ad569e9e655)
+
+
+
 ### The project was done
-    This is a Persian resume maker project that the user can start the process of creating a resume after registering on this mini website by filling in personal information in the forms.
+
+This is a Persian resume maker project that the user can start the process of creating a resume after registering on this mini website by filling in personal information in the forms.
 
 To use this project in your system, you can go through the following steps:
 
